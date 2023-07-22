@@ -64,10 +64,6 @@ html{
         width: 100%;
         overflow-x: hidden;
     }
-    .sticky{
-        position: sticky !important;
-        top: 0 !important; 
-    }
     hr{
         max-width: 300px;
     
@@ -127,7 +123,7 @@ i:hover{
     text-align: center;
     padding: 10px;
 }
-input, button{
+input, .btns{
     width: 100%;
     height: 40px;
     margin: 5px auto;
