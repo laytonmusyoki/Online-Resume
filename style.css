@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -14,6 +19,9 @@ html{
     font-weight: 700;
     padding-right: 36px !important;
     transition: all 0.5s ease;
+}
+.nav-item .nav-link a:active{
+    color: orange !important;
 }
 .nav-item .nav-link:hover{
     color: orange;
@@ -65,9 +73,13 @@ html{
         overflow-x: hidden;
     }
     hr{
-        max-width: 300px;
-    
+        max-width: 200px;
     }
+    .sticky{
+        position: sticky;
+        top: 0;
+    }
+    
     
 }
 i{
