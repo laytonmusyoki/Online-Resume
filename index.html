@@ -10,6 +10,39 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
   <script src="https://kit.fontawesome.com/8a42449199.js" crossorigin="anonymous"></script>
+
+  <style>
+    @keyframes moveFromLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveFromRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.element:nth-child(even) {
+  animation: moveFromRight 0.5s ease forwards;
+}
+
+.element:nth-child(odd) {
+  animation: moveFromLeft 0.5s ease forwards;
+}
+
+  </style>
 </head>
 
 <body>
@@ -138,6 +171,7 @@
             </div>
           </div>
         </div>
+        <!--  -->
         <div class="col-lg-4">
           <div class="element">
             <div class="thumbnail">
@@ -150,6 +184,42 @@
             </div>
           </div>
         </div>
+        <!--live projects  -->
+
+        <div class="about" style="margin: 30px auto;">
+          <h1 style="color: #555;">Live Projects</h1>
+        </div>
+        <div class="col-lg-6">
+          <div class="element">
+            <div class="thumbnail">
+              <img src="travel.jpg" alt="">
+            </div>
+            <div class="element">
+              <h3>Travelbilawas</h3>
+              <p>Travelbilawas simplifies matatu booking, offering users a seamless experience to reserve seats and access route information.</p>
+              <hr>
+              <a href="https://travelbilawas.com/app/" class="btn btn-outline-success">Visit</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="element">
+            <div class="thumbnail">
+              <img src="techlane.jpg" alt="">
+            </div>
+            <div class="element">
+              <h3>Techlane Technologies</h3>
+              <p>Techlane provides a convenient online platform for purchasing tech gadgets, ensuring secure transactions and detailed product listings.</p>
+              <hr>
+              <a href="http://techlane.co.ke/login/" class="btn btn-outline-success">Visit</a>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+
+        
+        <!--  -->
       </div>
     </div>
   </section>
@@ -254,7 +324,7 @@
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
             </div>
-            <p style="text-align: center;">Working with my friend has been a pleasure. His dedication, work ethic, and persistence are inspiring. He stays focused, overcomes challenges with a positive mindset, and elevates our work's quality. Collaborating with such a driven individual has been transformative, and I eagerly anticipate more fruitful projects together in the future. His unwavering commitment and attention to detail have earned him respect from peers and clients alike.</p>
+            <p style="text-align: center;">Working Layton has been a pleasure. His dedication, work ethic, and persistence are inspiring. He stays focused, overcomes challenges with a positive mindset, and elevates our work's quality. Collaborating with such a driven individual has been transformative, and I eagerly anticipate more fruitful projects together in the future. His unwavering commitment and attention to detail have earned him respect from peers and clients alike.</p>
           </div>
         </div>
         <div class="col-lg-4">
@@ -289,6 +359,8 @@
       backdelay: 1000,
       loop: true
     });
+
+    
   </script>
   <script src="app.js"></script>
   <script src="js/bootstrap.js"></script>
