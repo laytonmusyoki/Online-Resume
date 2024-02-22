@@ -45,13 +45,7 @@ html{
     padding: 10px;
     height: auto;
 }
-.element{
-    box-shadow: hsl(0, 0%, 80%)0 0 16px;
-    background: #fff;
-    padding: 10px;
-    height: auto;
-    border-radius: 5px;
-}
+
 .img {
     display: flex;
     justify-content: center;
