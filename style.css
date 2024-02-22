@@ -5,8 +5,11 @@
 }
 
 .sticky{
-    position: sticky;
-    top: 0;
+    position: fixed;
+    top: 0; 
+    transition: top 0.3s;
+    z-index: 1000; 
+    width: 100%;
 }
 html{
     scroll-behavior: smooth;
