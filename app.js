@@ -3,7 +3,7 @@ var change=document.getElementById('change');
 
     mytimeout=setInterval(function(){
         if(change.src="kali.jpg"){
-            change.src="eng.jpg";
+            change.src="eng.jpeg";
         }
         else{
             change.src="kali.jpg";
