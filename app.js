@@ -2,11 +2,11 @@ var change=document.getElementById('change');
 
 
     mytimeout=setInterval(function(){
-        if(change.src="kali.jpg"){
-            change.src="eng.jpeg";
+        if(change.src="eng.jpg"){
+            change.src="kali.jpg";
         }
         else{
-            change.src="kali.jpg";
+            change.src="eng.jpg";
         }
     },5000);
     
